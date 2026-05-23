@@ -29,7 +29,7 @@ SUMMARY:Opening ceremony/Photo
 LOCATION:M1001
 DESCRIPTION:Session: Opening ceremony\\nSpeaker: Efim Zelmanov\\; Qing Xi
  ang\\; Pham Huu Tiep\\nChair: Jiping Zhang\\nVenue: College of Science\\
- nLocation: M1001
+ nLocation: M1001\\nhttps://icm.sustech.edu.cn/map/#22.59657,113.99453,18
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
@@ -255,7 +255,8 @@ SUMMARY:A new generalization of the McKay conjecture for p-solvable group
  s
 LOCATION:M1001
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Ping Jin\\nCha
- ir: Jean Michel\\nVenue: College of Science\\nLocation: M1001
+ ir: Jean Michel\\nVenue: College of Science\\nLocation: M1001 
+ \\nhttps://icm.sustech.edu.cn/map/#22.59657,113.99453,18
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reminder
