@@ -26,7 +26,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260525T083000
 DTEND:20260525T085000
 SUMMARY:Opening ceremony/Photo
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Opening ceremony\\nSpeaker: Efim Zelmanov\\; Qing Xi
  ang\\; Pham Huu Tiep\\nChair: Jiping Zhang\\nVenue: College of Science\\
  nLocation: M1001\\nhttps://icm.sustech.edu.cn/map/#22.59657,113.99453,18
@@ -42,7 +42,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260525T090000
 DTEND:20260525T095000
 SUMMARY:The Abelian Defect Conjecture at 40
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Rapha毛l Rouquier\\nChair: Jip
  ing Zhang\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -72,7 +72,7 @@ DTSTART:20260525T103000
 DTEND:20260525T105000
 SUMMARY:On fusion systems of blocks of finite groups and stable equivalen
  ces of Morita type
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Conghui Li\\nC
  hair: Olivier Dudas\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -88,7 +88,7 @@ DTSTART:20260525T103000
 DTEND:20260525T105000
 SUMMARY:Minimal polynomials in spin representations of symmetric and alte
  rnating groups
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Velmurugan S\\
  nChair: Noelia Rizo\\nVenue: College of Science\\nLocation: 1142
 BEGIN:VALARM
@@ -103,7 +103,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260525T110000
 DTEND:20260525T115000
 SUMMARY:Centralizers of semi-simple elements are semidirect products
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Jean Michel\\nChair: Jiping Zha
  ng\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -133,7 +133,7 @@ DTSTART:20260525T140000
 DTEND:20260525T145000
 SUMMARY:About a filtration of the group algebra attached to a reflection 
  group
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Cedric Bonnaf茅\\nChair: Jipin
  g Zhang\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -163,7 +163,7 @@ DTSTART:20260525T153000
 DTEND:20260525T155000
 SUMMARY:Hyperfocal subalgebras of blocks with Frobenius hyperfocal inerti
  al quotients
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Xueqin Hu\\nCh
  air: Guohua Qian\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -179,7 +179,7 @@ DTSTART:20260525T153000
 DTEND:20260525T155000
 SUMMARY:Categorical action on finite classical groups and its application
  s: positive characteristic
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Pengcheng Li\\
  nChair: Changguo Shao\\nVenue: College of Science\\nLocation: 1142
 BEGIN:VALARM
@@ -194,7 +194,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260525T160000
 DTEND:20260525T165000
 SUMMARY:Positivity of Canonical Bases
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Xuhua He\\nChair: Jiping Zhang\
  \nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -223,7 +223,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260526T090000
 DTEND:20260526T095000
 SUMMARY:On Growth and Complexity functions
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Efim Zelmanov\\nChair: Rapha毛
  l Rouquier\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -253,7 +253,7 @@ DTSTART:20260526T103000
 DTEND:20260526T105000
 SUMMARY:A new generalization of the McKay conjecture for p-solvable group
  s
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Ping Jin\\nCha
  ir: Jean Michel\\nVenue: College of Science\\nLocation: M1001 
  \\nhttps://icm.sustech.edu.cn/map/#22.59657,113.99453,18
@@ -269,7 +269,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260526T103000
 DTEND:20260526T105000
 SUMMARY:Maximal solvable subgroups
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Mikko Korhonen
  \\nChair: Xuhua He\\nVenue: College of Science\\nLocation: 1142
 BEGIN:VALARM
@@ -284,7 +284,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260526T110000
 DTEND:20260526T115000
 SUMMARY:Jordan decomposition for finite groups of Lie type
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Arnaud Eteve\\nChair: Rapha毛l
   Rouquier\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -314,7 +314,7 @@ DTSTART:20260526T140000
 DTEND:20260526T145000
 SUMMARY:McKay's equality on p'-characters\\, the landscape after the proo
  f\\, I
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Marc Cabanes\\nChair: Rapha毛l
   Rouquier\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -343,7 +343,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260526T153000
 DTEND:20260526T155000
 SUMMARY:Galois action and block
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: J. Miquel Mart
  铆nez\\nChair: Heguo Liu\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -375,7 +375,7 @@ DTSTART:20260526T160000
 DTEND:20260526T165000
 SUMMARY:McKay's equality on p'-characters\\, the landscape after the proo
  f\\, II
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Britta Sp盲th\\nChair: Rapha
  毛l Rouquier\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -404,7 +404,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260527T083000
 DTEND:20260527T092000
 SUMMARY:From p-groups to defect groups to nilpotent blocks
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Gabriel Navarro\\nChair: Zhiche
  ng Feng\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -419,7 +419,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260527T093000
 DTEND:20260527T102000
 SUMMARY:Beyond Brauer's Height Zero Conjecture
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Noelia Rizo\\nChair: Zhicheng F
  eng\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -448,7 +448,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260527T110000
 DTEND:20260527T112000
 SUMMARY:About the inductive Feit condition
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Carlos Tapp\\n
  Chair: Lucas Ruhstorfer\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -463,7 +463,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260527T110000
 DTEND:20260527T112000
 SUMMARY:Relative M-groups and relative Mp-groups
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Xiaoyou Chen\\
  nChair: Arnaud Eteve\\nVenue: College of Science\\nLocation: 1142
 BEGIN:VALARM
@@ -478,7 +478,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260527T113000
 DTEND:20260527T122000
 SUMMARY:Character estimates for finite simple groups and applications
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Pham Huu Tiep\\nChair: Zhicheng
   Feng\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -535,7 +535,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260528T090000
 DTEND:20260528T095000
 SUMMARY:Green correspondence and weight conjecture
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Jiping Zhang\\nChair: Pham Huu 
  Tiep\\nVenue: College of Science & Lecture Hall 1\\nLocation: M1001
 BEGIN:VALARM
@@ -565,7 +565,7 @@ DTSTART:20260528T103000
 DTEND:20260528T105000
 SUMMARY:The blockwise Galois Alperin weight conjecture for symmetric and 
  alternating groups and their double covering groups
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Yucong Du\\nCh
  air: Lizhong Wang\\nVenue: College of Science & Lecture Hall 1\\nLocatio
  n: M1001
@@ -581,7 +581,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260528T103000
 DTEND:20260528T105000
 SUMMARY:The character codegree ratio of finite groups
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Quanfu Yan\\nC
  hair: Baoshan Wang\\nVenue: College of Science & Lecture Hall 1\\nLocati
  on: 1142
@@ -597,7 +597,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260528T110000
 DTEND:20260528T115000
 SUMMARY:Generalised e-Harish-Chandra theory and Alperin weight conjecture
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Zhicheng Feng\\nChair: Pham Huu
   Tiep\\nVenue: College of Science & Lecture Hall 1\\nLocation: M1001
 BEGIN:VALARM
@@ -626,7 +626,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260528T140000
 DTEND:20260528T145000
 SUMMARY:Galois automorphisms and blocks covering unipotent blocks
-LOCATION:111
+LOCATION:https://icm.sustech.edu.cn/map/#22.59862,113.99230,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Lucas Ruhstorfer\\nChair: Pham 
  Huu Tiep\\nVenue: Lecture Hall 1\\nLocation: 111
 BEGIN:VALARM
@@ -655,7 +655,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260528T153000
 DTEND:20260528T155000
 SUMMARY:Examples of inertial blocks
-LOCATION:111
+LOCATION:https://icm.sustech.edu.cn/map/#22.59862,113.99230,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Kun Zhang\\nCh
  air: Jay Taylor\\nVenue: Lecture Hall 1\\nLocation: 111
 BEGIN:VALARM
@@ -671,7 +671,7 @@ DTSTART:20260528T153000
 DTEND:20260528T155000
 SUMMARY:A reduction of the Galois Alperin weight conjecture and its block
  wise version
-LOCATION:110
+LOCATION:https://icm.sustech.edu.cn/map/#22.59862,113.99230,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Qulei Fu\\nCha
  ir: Kei Yuen Chan\\nVenue: Lecture Hall 1\\nLocation: 110
 BEGIN:VALARM
@@ -687,7 +687,7 @@ DTSTART:20260528T160000
 DTEND:20260528T165000
 SUMMARY:Some elements of the Green Ring related to Alperin's Weight Conje
  cture
-LOCATION:111
+LOCATION:https://icm.sustech.edu.cn/map/#22.59862,113.99230,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Geoffrey Robinson\\nChair: Pham
   Huu Tiep\\nVenue: Lecture Hall 1\\nLocation: 111
 BEGIN:VALARM
@@ -716,7 +716,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260529T090000
 DTEND:20260529T095000
 SUMMARY:Modular reduction of nilpotent orbits
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Jay Taylor\\nChair: Efim Zelman
  ov\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -745,7 +745,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260529T103000
 DTEND:20260529T105000
 SUMMARY:Character degrees and group structure
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Yanjun Liu\\nC
  hair: Gabriel Navarro\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -761,7 +761,7 @@ DTSTART:20260529T103000
 DTEND:20260529T105000
 SUMMARY:Finite simple groups as automorphism groups of non-associative al
  gebras and colored graphs
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Ilya Gorshkov\
  \nChair: Cedric Bonnaf茅\\nVenue: College of Science\\nLocation: 1142
 BEGIN:VALARM
@@ -777,7 +777,7 @@ DTSTART:20260529T110000
 DTEND:20260529T115000
 SUMMARY:Cyclotomic level maps and associated varieties for simple affine 
  vertex algebras
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Peng Shan\\nChair: Efim Zelmano
  v\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -806,7 +806,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260529T140000
 DTEND:20260529T145000
 SUMMARY:Special Chevalley bases for simple Lie algebras
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Meinolf Geck\\nChair: Efim Zelm
  anov\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -835,7 +835,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260529T153000
 DTEND:20260529T155000
 SUMMARY:Recent progress on the modular isomorphism problem
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Taro Sakurai\\
  nChair: Jun Liao\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
@@ -850,7 +850,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260529T153000
 DTEND:20260529T155000
 SUMMARY:Cocenter of Hecke algebras of crystallographic Coxeter groups
-LOCATION:1142
+LOCATION:https://icm.sustech.edu.cn/map/#22.59730,113.99501,19
 DESCRIPTION:Session: Parallel contributed talks\\nSpeaker: Felix Schremme
  r\\nChair: Xingzhong Xu\\nVenue: College of Science\\nLocation: 1142
 BEGIN:VALARM
@@ -865,7 +865,7 @@ DTSTAMP:20260522T142244Z
 DTSTART:20260529T160000
 DTEND:20260529T165000
 SUMMARY:Braid group actions on Deligne鈥揕usztig varieties
-LOCATION:M1001
+LOCATION:https://icm.sustech.edu.cn/map/#22.59682,113.99471,19
 DESCRIPTION:Session: Main talk\\nSpeaker: Olivier Dudas\\nChair: Efim Zel
  manov\\nVenue: College of Science\\nLocation: M1001
 BEGIN:VALARM
