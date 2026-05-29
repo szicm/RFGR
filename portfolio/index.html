@@ -147,8 +147,6 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 <link rel="apple-touch-icon" href="/RFGR//wp-content/uploads/2025/06/cropped-ICM_LOGO-180x180.png">
 <meta name="msapplication-TileImage" content="/RFGR//wp-content/uploads/2025/06/cropped-ICM_LOGO-270x270.png">
 <style id="rfgr-gallery-enhancement-css">
-.rfgr-gallery-toolbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
-.rfgr-gallery-status{margin:0;font-size:var(--wp--preset--font-size--small);color:var(--wp--preset--color--custom-003-f-43)}
 .rfgr-auto-gallery-wrap{margin-top:28px}
 .rfgr-auto-gallery-wrap h3{margin:0 0 12px 0}
 .rfgr-clickable-image{cursor:zoom-in}
@@ -157,6 +155,10 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 .rfgr-lightbox img{max-width:min(92vw,1600px);max-height:90vh;width:auto;height:auto;box-shadow:0 10px 40px rgba(0,0,0,.45);background:#fff}
 .rfgr-lightbox-close{position:absolute;top:14px;right:14px;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:0;border-radius:999px;background:rgba(255,255,255,.2);color:#fff;font-size:24px;line-height:1;cursor:pointer}
 .rfgr-lightbox-close:hover{background:rgba(255,255,255,.32)}
+.rfgr-download-fab{position:sticky;top:10px;z-index:20;display:flex;justify-content:center;margin:0 auto 14px}
+@media (min-width:1500px){
+.rfgr-download-fab{position:fixed;top:50%;transform:translateY(-50%);right:max(12px,calc((100vw - 1340px)/2 - 86px));z-index:109500;margin:0}
+}
 </style>
 </head>
 
@@ -196,11 +198,16 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 <main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
 <div class="wp-block-group alignfull has-custom-f-8-f-8-ff-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-2857b35c wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 <div class="wp-block-group alignwide is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="rfgr-gallery-toolbar">
-<button type="button" id="rfgr-download-all" class="wp-element-button">批量下载当前图库图片</button>
-<p id="rfgr-scan-status" class="rfgr-gallery-status">正在读取图片清单 JSON...</p>
+<div class="rfgr-download-fab">
+<button type="button" id="rfgr-download-all" class="wp-element-button">Download All</button>
 </div>
 </div>
+
+<div class="wp-block-group alignwide rfgr-auto-gallery-wrap is-layout-constrained wp-block-group-is-layout-constrained">
+
+<div id="rfgr-auto-gallery" class="wp-block-group alignwide is-layout-grid wp-container-core-group-is-layout-05c070ad wp-block-group-is-layout-grid" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"></div>
+</div>
+
 <div class="wp-block-group alignwide is-layout-grid wp-container-core-group-is-layout-05c070ad wp-block-group-is-layout-grid" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <figure class="wp-block-image size-full" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img decoding="async" width="2560" height="1707" src="/RFGR//wp-content/uploads/2025/07/sustech-ground-scaled.jpg" alt="" class="wp-image-113" style="aspect-ratio:1;object-fit:cover" srcset="/RFGR//wp-content/uploads/2025/07/sustech-ground-scaled.jpg 2560w, /RFGR//wp-content/uploads/2025/07/sustech-ground-300x200.jpg 300w, /RFGR//wp-content/uploads/2025/07/sustech-ground-1024x683.jpg 1024w, /RFGR//wp-content/uploads/2025/07/sustech-ground-768x512.jpg 768w, /RFGR//wp-content/uploads/2025/07/sustech-ground-1536x1024.jpg 1536w, /RFGR//wp-content/uploads/2025/07/sustech-ground-2048x1365.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></figure>
 
@@ -228,10 +235,7 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 
 <figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="2560" height="1097" src="/RFGR//wp-content/uploads/2025/06/futian-scaled.jpg" alt="" class="wp-image-15" style="aspect-ratio:1;object-fit:cover" srcset="/RFGR//wp-content/uploads/2025/06/futian-scaled.jpg 2560w, /RFGR//wp-content/uploads/2025/06/futian-300x129.jpg 300w, /RFGR//wp-content/uploads/2025/06/futian-1024x439.jpg 1024w, /RFGR//wp-content/uploads/2025/06/futian-768x329.jpg 768w, /RFGR//wp-content/uploads/2025/06/futian-1536x658.jpg 1536w, /RFGR//wp-content/uploads/2025/06/futian-2048x878.jpg 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px"></figure>
 </div>
-<div class="wp-block-group alignwide rfgr-auto-gallery-wrap is-layout-constrained wp-block-group-is-layout-constrained">
 
-<div id="rfgr-auto-gallery" class="wp-block-group alignwide is-layout-grid wp-container-core-group-is-layout-05c070ad wp-block-group-is-layout-grid" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"></div>
-</div>
 </div>
 </div>
 
@@ -298,7 +302,7 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 				if (!img) {
 					return;
 				}
-				preview.src = img.currentSrc || img.src;
+				preview.src = img.dataset.fullUrl || img.currentSrc || img.src;
 				preview.alt = img.alt || 'Preview';
 				lightbox.classList.add('is-open');
 			});
@@ -327,14 +331,13 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 
 		function getAllGalleryImageUrls() {
 			var urls = Array.from(document.querySelectorAll(allClickableSelector)).map(function(img) {
-				return img.currentSrc || img.src;
+				return img.dataset.fullUrl || img.currentSrc || img.src;
 			}).filter(Boolean);
 			return Array.from(new Set(urls));
 		}
 
 		function bindBatchDownload() {
 			var btn = document.getElementById('rfgr-download-all');
-			var status = document.getElementById('rfgr-scan-status');
 			if (!btn) {
 				return;
 			}
@@ -342,23 +345,14 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 			btn.addEventListener('click', async function() {
 				var urls = getAllGalleryImageUrls();
 				if (!urls.length) {
-					if (status) {
-						status.textContent = '当前没有可下载的图片';
-					}
 					return;
 				}
 				if (!window.JSZip) {
-					if (status) {
-						status.textContent = 'ZIP 依赖加载失败，请刷新后重试';
-					}
 					return;
 				}
 
 				btn.disabled = true;
-				btn.textContent = '打包 ZIP 中...';
-				if (status) {
-					status.textContent = '正在拉取图片并打包 ZIP...';
-				}
+				btn.textContent = 'Creating ZIP...';
 
 				try {
 					var zip = new window.JSZip();
@@ -380,21 +374,13 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 						} catch (err) {
 							failCount += 1;
 						}
-
-						if (status) {
-							status.textContent = '打包进度：' + (i + 1) + '/' + urls.length;
-						}
 					}
 
 					if (!successCount) {
 						throw new Error('No image fetched successfully');
 					}
 
-					var zipBlob = await zip.generateAsync({ type: 'blob' }, function(meta) {
-						if (status) {
-							status.textContent = 'ZIP 生成中：' + Math.round(meta.percent) + '%';
-						}
-					});
+					var zipBlob = await zip.generateAsync({ type: 'blob' });
 
 					var now = new Date();
 					var stamp = now.getFullYear() + String(now.getMonth() + 1).padStart(2, '0') + String(now.getDate()).padStart(2, '0');
@@ -407,36 +393,35 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 					link.remove();
 					URL.revokeObjectURL(blobUrl);
 
-					if (status) {
-						status.textContent = failCount
-							? ('ZIP 下载完成，成功 ' + successCount + ' 张，失败 ' + failCount + ' 张')
-							: ('ZIP 下载完成，共 ' + successCount + ' 张');
-					}
 				} catch (err) {
-					if (status) {
-						status.textContent = 'ZIP 下载失败，请稍后重试';
-					}
+					// Keep silent for UI status updates.
 				} finally {
 					btn.disabled = false;
-					btn.textContent = '批量下载当前图库图片';
+					btn.textContent = 'Download All';
 				}
 			});
 		}
 
-		function renderJsonImages(urls) {
+		function renderJsonImages(entries) {
 			var container = document.getElementById('rfgr-auto-gallery');
 			if (!container) {
 				return;
 			}
 			container.innerHTML = '';
-			urls.forEach(function(url) {
+			entries.forEach(function(entry) {
+				var fullUrl = entry.fullUrl;
+				var thumbUrl = entry.thumbUrl || fullUrl;
+				if (!fullUrl) {
+					return;
+				}
 				var figure = document.createElement('figure');
 				figure.className = 'wp-block-image size-full';
 				var img = document.createElement('img');
 				img.loading = 'lazy';
 				img.decoding = 'async';
-				img.src = url;
-				img.alt = extractFileName(url);
+				img.src = thumbUrl;
+				img.alt = extractFileName(fullUrl);
+				img.dataset.fullUrl = fullUrl;
 				img.style.aspectRatio = '1';
 				img.style.objectFit = 'cover';
 				img.classList.add('rfgr-clickable-image');
@@ -445,21 +430,32 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 			});
 		}
 
-		function resolveImageUrl(item, basePath) {
+		function resolveImageEntry(item, basePath, thumbBasePath) {
+			var fullUrl = '';
+			var thumbUrl = '';
+
 			if (typeof item === 'string') {
-				return basePath + item;
+				fullUrl = basePath + item;
+				thumbUrl = thumbBasePath ? (thumbBasePath + item) : fullUrl;
+				return { fullUrl: fullUrl, thumbUrl: thumbUrl };
 			}
 			if (item && typeof item.url === 'string' && item.url) {
-				return item.url;
+				fullUrl = item.url;
 			}
 			if (item && typeof item.file === 'string' && item.file) {
-				return basePath + item.file;
+				fullUrl = basePath + item.file;
 			}
-			return '';
+			if (item && typeof item.thumb === 'string' && item.thumb) {
+				thumbUrl = item.thumb;
+			}
+			if (!thumbUrl) {
+				thumbUrl = fullUrl;
+			}
+
+			return { fullUrl: fullUrl, thumbUrl: thumbUrl };
 		}
 
 		async function loadAndRenderImagesFromJson() {
-			var status = document.getElementById('rfgr-scan-status');
 			try {
 				var response = await fetch(JSON_URL, { cache: 'no-store' });
 				if (!response.ok) {
@@ -467,27 +463,30 @@ h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-b
 				}
 				var payload = await response.json();
 				var basePath = (payload && payload.basePath) ? payload.basePath : '/RFGR//wp-content/uploads/2026/05/';
+				var thumbBasePath = (payload && payload.thumbBasePath) ? payload.thumbBasePath : '';
 				var images = [];
 				if (Array.isArray(payload && payload.images)) {
 					images = payload.images;
 				} else if (payload && payload.images && typeof payload.images === 'object') {
 					images = [payload.images];
 				}
-				var urls = images.map(function(item) {
-					return resolveImageUrl(item, basePath);
-				}).filter(Boolean);
-				urls = Array.from(new Set(urls));
+				var entries = images.map(function(item) {
+					return resolveImageEntry(item, basePath, thumbBasePath);
+				}).filter(function(entry) {
+					return !!entry.fullUrl;
+				});
+				var seen = new Set();
+				entries = entries.filter(function(entry) {
+					if (seen.has(entry.fullUrl)) {
+						return false;
+					}
+					seen.add(entry.fullUrl);
+					return true;
+				});
 
-				renderJsonImages(urls);
-				if (status) {
-					status.textContent = urls.length
-						? ('已从 JSON 加载 ' + urls.length + ' 张 2026/05 图片')
-						: '已读取 JSON，但没有图片数据';
-				}
+				renderJsonImages(entries);
 			} catch (err) {
-				if (status) {
-					status.textContent = '读取 JSON 失败，请先运行生成脚本';
-				}
+				// Keep silent for JSON load success/failure notifications.
 			}
 		}
 

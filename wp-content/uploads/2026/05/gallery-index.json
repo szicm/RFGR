@@ -1,10 +1,12 @@
 ﻿{
-    "generatedAt":  "2026-05-29T13:35:24",
+    "generatedAt":  "2026-05-29T14:44:36",
     "basePath":  "/RFGR//wp-content/uploads/2026/05/",
+    "thumbBasePath":  "/RFGR//wp-content/uploads/2026/05/thumbs/",
     "images":  [
                    {
                        "file":  "group-photo.png",
-                       "url":  "/RFGR//wp-content/uploads/2026/05/group-photo.png"
+                       "url":  "/RFGR//wp-content/uploads/2026/05/group-photo.png",
+                       "thumb":  "/RFGR//wp-content/uploads/2026/05/thumbs/group-photo-thumb.png"
                    }
                ]
 }
